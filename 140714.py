@@ -31,4 +31,4 @@ with file('text.txt', 'r') as text:
 	text.write("it was interesting")
 	text.close()
 
-dictionary = {"a":1, "b":2}
+#dictionary = {"a":1, "b":2}
