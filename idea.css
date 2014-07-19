@@ -1,0 +1,184 @@
+<div id="gt-text-c">
+<div id="gt-langs">
+<div id="gt-lang-left" class="goog-inline-block">
+<div id="gt-lang-src">
+<div id="gt-sl-sugg" class="gt-lang-sugg-message goog-inline-block je">
+<div role="button" class="goog-inline-block jfk-button jfk-button-standard jfk-button-collapse-right jfk-button-checked" aria-pressed="true" aria-hidden="false" value="ko" tabindex="0" style="-webkit-user-select: none;">부산</div>
+<div role="button" class="goog-inline-block jfk-button jfk-button-standard jfk-button-collapse-left jfk-button-collapse-right" aria-pressed="false" aria-hidden="false" value="en" tabindex="0" style="-webkit-user-select: none;">서울</div>
+</div>
+</div>
+<div id="gt-swap" class="jfk-button-standard jfk-button-narrow jfk-button trans-swap-button je" role="button" tabindex="0" data-tooltip="Swap languages" aria-label="Swap languages" style="-webkit-user-select: none;"><span class="jfk-button-img"></span></div>
+</div>
+<div id="gt-lang-right" class="goog-inline-block">
+<div id="gt-lang-tgt">
+<div id="gt-tl-sugg" class="gt-lang-sugg-message goog-inline-block je">
+<div role="button" class="goog-inline-block jfk-button jfk-button-standard jfk-button-collapse-right jfk-button-checked" aria-pressed="true" aria-hidden="false" value="en" tabindex="0" style="-webkit-user-select: none;">부산</div>
+<div role="button" class="goog-inline-block jfk-button jfk-button-standard jfk-button-collapse-left jfk-button-collapse-right" aria-pressed="false" aria-hidden="false" value="ko" tabindex="0" style="-webkit-user-select: none;">서울</div>
+</div>
+</div>
+<div id="gt-lang-submit"><input type="submit" id="gt-submit" value="Translate" tabindex="0" class="jfk-button jfk-button-action"></div>
+</div>
+</div>
+<div id="gt-text-top">
+<div id="gt-src-c" class="g-unit">
+<div id="gt-src-p"><input type="hidden" name="js" value="y" id="js"><input type="hidden" name="prev" value="_t" id="prev"><input type="hidden" name="hl" value="en" id="hl"><input type="hidden" name="ie" value="UTF-8">
+<div id="gt-src-wrap" class=""><label for="source" style="display:none">Translate text or webpage</label>
+<div style="width: 100%;">
+<div class="gt-hl-layer" dir="ltr" style="box-sizing: content-box; width: 606px; height: 65px; left: 0px; top: 0px; padding-left: 8px; padding-right: 20px;"></div>
+<textarea id="source" name="text" wrap="SOFT" tabindex="0" dir="ltr" spellcheck="false" autocapitalize="off" autocomplete="off" autocorrect="off" class="goog-textarea" style="box-sizing: border-box; overflow-y: hidden; overflow-x: auto; padding-right: 20px;"></textarea>
+<div id="gt-clear" class="clear-button goog-toolbar-button" data-tooltip="Clear text" aria-label="Clear text" data-tooltip-align="t,c" role="button" style="display: none; -webkit-user-select: none; right: 0px;"><span class="jfk-button-img"></span></div>
+</div>
+<script>(function(){var src = document.getElementById('source');src.focus();src.select();src.style.boxSizing=src.style.WebkitBoxSizing=src.style.MozBoxSizing=src.style.MsBoxSizing='border-box';})();</script>
+<div id="gt-src-tools">
+<div id="gt-src-tools-l">
+<div id="gt-input-tool" style="display: inline-block;">
+<div id="itamenu"><span class="ita-kd-inputtools-div">
+<div class="goog-container goog-container-vertical" tabindex="-1" style="-webkit-user-select: none;"><a class="ita-kd-icon-button ita-kd-inputtool-icon ita-kd-small ita-kd-left" tabindex="0" data-tooltip="Turn on Virtual Keyboard" aria-label="Turn on Virtual Keyboard" data-tooltip-align="t,c" style="-webkit-user-select: none;"><span class="ita-kd-img ita-icon-0 ita-kd-icon ita-kd-icon-span" style="-webkit-user-select: none;"></span></a><a class="ita-kd-icon-button ita-kd-dropdown ita-kd-right" tabindex="0" data-tooltip="Select Input Tool" aria-label="Select Input Tool" data-tooltip-align="t,c" style="-webkit-user-select: none;"><span class="ita-kd-img ita-kd-arrow ita-kd-icon-span" style="-webkit-user-select: none;"></span></a></div>
+</span></div>
+</div>
+<div id="gt-speech" class="speech-button goog-toolbar-button" data-tooltip="Turn on speech input" aria-label="Turn on speech input" data-tooltip-align="t,c" aria-pressed="false" role="button" tabindex="0" style="-webkit-user-select: none;"><span class="jfk-button-img"></span>
+<div class="jfk-bubble" style="display: none;">
+<div class="jfk-bubble-content-id">
+<div>
+<div class="speech-mic">
+<div class="gt-speech-l1"></div>
+<div class="gt-speech-l2"></div>
+<div class="gt-speech-l3"></div>
+<div class="gt-speech-l4"></div>
+</div>
+<div class="speech-mic-label">Speak Now</div>
+</div>
+</div>
+<div class="jfk-bubble-arrow-id jfk-bubble-arrow">
+<div class="jfk-bubble-arrowimplbefore"></div>
+<div class="jfk-bubble-arrowimplafter"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="gt-src-tools-r">
+<div id="gt-src-listen" class="trans-listen-button goog-toolbar-button" data-tooltip="Listen" aria-label="Listen" data-tooltip-align="t,c" aria-pressed="false" role="button" style="display: none; -webkit-user-select: none;"><span class="jfk-button-img"></span></div>
+<div id="gt-src-roman" class="trans-roman-button goog-toolbar-button" data-tooltip="Read phonetically" aria-label="Read phonetically" data-tooltip-align="t,c" aria-pressed="false" role="button" style="display: none; -webkit-user-select: none;"><span class="jfk-button-img"></span></div>
+</div>
+</div>
+</div>
+<div id="select_document">Type text or a website address or <a href="/?tr=f&amp;hl=en">translate a document.</a></div>
+<div id="file_div" class="file" style="display:none">
+<div id="select_text"><a href="/?tr=t&amp;hl=en">Cancel</a></div>
+<input type="file" name="file" id="file" size="40"></div>
+<div id="src-translit" class="translit" dir="ltr" style="display: none;"></div>
+<div id="spelling-correction" style="display:none"></div>
+</div>
+</div>
+<div id="gt-res-c" class="g-unit">
+<div id="gt-res-p">
+<div id="gt-res-data">
+<div id="gt-res-wrap">
+<div id="gt-res-content" class="almost_half_cell">
+<div dir="ltr" style="zoom:1"><span id="result_box" class="short_text"></span></div>
+</div>
+<div id="gt-edit" style="display:none">
+<div style="width: 100%;"><textarea id="contribute-target" name="edit-text" wrap="SOFT" tabindex="0" spellcheck="false" autocapitalize="off" autocomplete="off" autocorrect="off" class="goog-textarea" rows="1" dir="ltr" style="overflow-y: hidden; overflow-x: auto; box-sizing: border-box; height: auto; padding-right: 20px;"></textarea>
+<div id="gt-clear" class="clear-button goog-toolbar-button" data-tooltip="Clear text" aria-label="Clear text" data-tooltip-align="t,c" role="button" style="display: none; -webkit-user-select: none; right: 0px;"><span class="jfk-button-img"></span></div>
+</div>
+</div>
+<div id="gt-res-tools">
+<div id="gt-res-tools-l">
+<div id="gt-pb-star">
+<div class="goog-toolbar-button goog-inline-block trans-pb-button" data-tooltip="Save to Phrasebook" aria-label="Save to Phrasebook" data-tooltip-align="t,c" role="button" aria-hidden="true" style="-webkit-user-select: none; display: none;"><span class="jfk-button-img"></span></div>
+</div>
+<div id="gt-res-select" class="select-button goog-toolbar-button" data-tooltip="Select all" aria-label="Select all" data-tooltip-align="t,c" role="button" aria-hidden="true" style="-webkit-user-select: none; display: none;"><span class="jfk-button-img"></span></div>
+<div id="gt-res-edit" class="trans-edit-button goog-toolbar-button" data-tooltip="Improve this translation" aria-label="Improve this translation" data-tooltip-align="t,c" role="button" style="display: none; -webkit-user-select: none;"><span class="jfk-button-img"></span></div>
+<div id="gt-res-undo"><a id="gt-undo" style="display: none;">Undo edits</a></div>
+</div>
+<div id="gt-res-tools-r">
+<div id="gt-res-listen" class="trans-listen-button goog-toolbar-button" data-tooltip="Listen" aria-label="Listen" data-tooltip-align="t,c" aria-pressed="false" role="button" style="display: none; -webkit-user-select: none;"><span class="jfk-button-img"></span></div>
+<div id="gt-res-ex-bt" class="trans-example-button goog-toolbar-button" data-tooltip="Show example usage of words" aria-label="Show example usage of words" data-tooltip-align="t,c" aria-pressed="false" role="button" style="display: none; -webkit-user-select: none;"><span class="jfk-button-img"></span></div>
+<div id="gt-res-roman" class="trans-roman-button goog-toolbar-button" data-tooltip="Read phonetically" aria-label="Read phonetically" data-tooltip-align="t,c" aria-pressed="false" role="button" style="display: none; -webkit-user-select: none;"><span class="jfk-button-img"></span></div>
+<div id="gt-res-rate" aria-label="Rate translation" data-tooltip-align="t,c" data-tooltip="Rate translation" style="display: none;">
+<div class="goog-inline-block goog-toolbar-menu-button" aria-expanded="false" role="button" tabindex="0" aria-haspopup="true" style="-webkit-user-select: none;">
+<div class="goog-inline-block goog-toolbar-menu-button-outer-box">
+<div class="goog-inline-block goog-toolbar-menu-button-inner-box">
+<div class="goog-inline-block goog-toolbar-menu-button-caption"><span class="goog-flat-menu-button-img gt-rate-icon jfk-button-img"></span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="res-translit" class="translit" dir="ltr" style="display: none;"></div>
+<div class="st-wrap" style="display: none;">
+<div class="st-stp1">
+<div class="st-stp1-text">
+<div>Your contribution will be used to improve translation quality and may be shown to users anonymously</div>
+</div>
+<div id="st-buttons">
+<div role="button" class="goog-inline-block jfk-button jfk-button-action" tabindex="0" style="-webkit-user-select: none;">Contribute</div>
+<div role="button" class="goog-inline-block jfk-button jfk-button-standard" tabindex="0" style="-webkit-user-select: none;">Close</div>
+</div>
+</div>
+<div class="st-stp2" style="display:none">Thank you for your submission.</div>
+</div>
+</div>
+</div>
+</div>
+<div id="gt-lc" style="display:none">
+<div class="gt-cc-t" style="display: none;"><span class="gt-cc-tc"></span><span class="gt-cc-bc">
+<div class="goog-toolbar-button goog-inline-block prev-button" role="button" aria-hidden="true" style="-webkit-user-select: none; display: none;"><span class="jfk-button-img"></span></div>
+<div class="goog-toolbar-button goog-inline-block next-button" role="button" aria-hidden="true" style="-webkit-user-select: none; display: none;"><span class="jfk-button-img"></span></div>
+<div class="goog-toolbar-button goog-inline-block clear-button" role="button" aria-hidden="true" style="-webkit-user-select: none; display: none;"><span class="jfk-button-img"></span></div>
+</span></div>
+<div class="gt-cc">
+<div class="gt-cc-l">
+<div class="gt-cc-l-i">
+<div class="gt-cd">
+<div class="gt-cd-t"></div>
+<div class="gt-cd-c"></div>
+<div class="cd-expand-button" style="display: none;"><span class="jfk-button-img"></span><span class="cd-expand-label"></span></div>
+</div>
+<div class="gt-cd">
+<div class="gt-cd-t"></div>
+<div class="gt-cd-c"></div>
+<div class="cd-expand-button" style="display: none;"><span class="jfk-button-img"></span><span class="cd-expand-label"></span></div>
+</div>
+<div class="gt-cd">
+<div class="gt-cd-t"></div>
+<div class="gt-cd-c"></div>
+<div class="cd-expand-button" style="display: none;"><span class="jfk-button-img"></span><span class="cd-expand-label"></span></div>
+</div>
+<div class="gt-cd gt-cd-rw">
+<div class="gt-cd-t"></div>
+<div class="gt-cd-c"></div>
+<div class="cd-expand-button" style="display: none;"><span class="jfk-button-img"></span><span class="cd-expand-label"></span></div>
+</div>
+</div>
+<div class="gt-cc-exp" style="display:none">
+<div class="cd-exp-ar"></div>
+</div>
+</div>
+<div class="gt-cc-r">
+<div class="gt-cc-r-i">
+<div class="gt-cd gt-cd-baf">
+<div class="gt-cd-t"></div>
+<div class="gt-cd-c"></div>
+<div class="cd-expand-button" style="display: none;"><span class="jfk-button-img"></span><span class="cd-expand-label"></span></div>
+</div>
+<div id="gt-res-ex" style="display: none;">
+<div class="gt-cd">
+<div class="gt-cd-t"></div>
+<div class="gt-cd-c"></div>
+<div class="cd-expand-button" style="display: none;"><span class="jfk-button-img"></span><span class="cd-expand-label"></span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="gt-ft">
+<div id="gt-ft-mkt">
+<div class="gt-ft-promos"><span class="gt-ft-text">Google Translate for Business:</span><a href="http://www.google.co.kr/url?source=transpromo&amp;rs=rsmf&amp;q=http://translate.google.com/toolkit%3Fhl%3Den"><span id="gt-ft-mkt-toolkit" class="gt-ft-mkt-icon"></span>Translator Toolkit</a><a href="http://www.google.co.kr/url?source=transpromo&amp;rs=rsmf&amp;q=http://translate.google.com/manager/website/%3Fhl%3Den"><span id="gt-ft-mkt-element" class="gt-ft-mkt-icon"></span>Website Translator</a><a href="http://www.google.co.kr/url?source=transpromo&amp;rs=rsmf&amp;q=http://translate.google.com/globalmarketfinder/%3Flocale%3Den"><span id="gt-ft-mkt-gmf" class="gt-ft-mkt-icon"></span>Global Market Finder</a></div>
+</div>
+</div>
+</div>

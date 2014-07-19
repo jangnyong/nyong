@@ -1,0 +1,347 @@
+<html lang="ko">
+<head>
+<title>&#54756;&#47092;&#46300; POP</title>
+<meta content="text/html; charset=ascii" http-equiv="Content-Type"/>
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta content="no-cache" http-equiv="Cache-Control"/>
+<meta content="no-cache" http-equiv="Pragma"/>
+<link href="http://res.heraldm.com/hbpop/css/style.css?pp=001" rel="stylesheet"/>
+<script src="http://res.heraldm.com/orga/js/jquery-1.10.2.js" type="text/javascript"></script>
+</meta></head>
+<body>
+<div id="wrap">
+<!-- &#49345;&#45800;-->
+<div id="head">
+<a href="http://www.heraldcorp.com" target="_blank"><img src="http://res.heraldm.com/emember/images/common/top_logo.gif?"/></a>
+<a href="http://biz.heraldcorp.com" target="_blank"><img src="http://res.heraldm.com/emember/images/common/top_menu01.gif"/></a>
+<a href="http://www.koreaherald.com" target="_blank"><img src="http://res.heraldm.com/emember/images/common/top_menu02.gif"/></a>
+<a href="http://www.myhooc.com/" target="_blank"><img src="http://res.heraldm.com/emember/images/common/hooc.gif"/></a>
+<a href="http://junior.heraldcorp.com" target="_blank"><img src="http://res.heraldm.com/emember/images/common/top_menu03.gif"/></a>
+</div>
+<div id="gnb">
+<h1 class="logo"><a href="/"><img alt="&#54756;&#47092;&#46300; &#54045;" src="http://res.heraldm.com/hbpop/img/logo.gif?pp=001"/></a></h1>
+<div class="menu">
+<ul>
+<li><a class="m1" href="/sec_index.php?nsi=1"><strong>&#54620;&#47448;</strong></a></li>
+<li><a class="m2" href="/sec_index.php?nsi=2"><strong>&#50689;&#54868;</strong></a></li>
+<li><a class="m3" href="/sec_index.php?nsi=3"><strong>&#48169;&#49569;</strong></a></li>
+<li><a class="m4" href="/sec_index.php?nsi=4"><strong>&#44032;&#50836;</strong></a></li>
+<li><a class="m5" href="/sec_index.php?nsi=5"><strong>&#54056;&#49496;</strong></a></li>
+<li><a class="m6" href="/sec_index.php?nsi=6"><strong>&#54252;&#53664;</strong></a></li>
+</ul>
+</div>
+</div>
+<!-- &#49345;&#45800;//-->
+<script language="javascript">
+var __nMaxIndexHom = 4;
+var __nDispIndexHom = 0;
+var __strArrayTopOnImg = new Array('http://res.heraldm.com/nimages/hom/viewtop/no1_on.gif', 'http://res.heraldm.com/nimages/hom/viewtop/no2_on.gif', 'http://res.heraldm.com/nimages/hom/viewtop/no3_on.gif', 'http://res.heraldm.com/nimages/hom/viewtop/no4_on.gif');
+var __strArrayTopOffImg = new Array('http://res.heraldm.com/nimages/hom/viewtop/no1_off.gif', 'http://res.heraldm.com/nimages/hom/viewtop/no2_off.gif', 'http://res.heraldm.com/nimages/hom/viewtop/no3_off.gif', 'http://res.heraldm.com/nimages/hom/viewtop/no4_off.gif');
+var __strArrayDispImg = new Array('http://res.heraldm.com/nimages/hom/viewtop/img1.jpg?pp=001', 'http://res.heraldm.com/nimages/hom/viewtop/img2.jpg?pp=001', 'http://res.heraldm.com/nimages/hom/viewtop/img3.jpg?pp=001', 'http://res.heraldm.com/nimages/hom/viewtop/img4.jpg?pp=001');
+//http://hooc.heraldcorp.com/superrich/superrich.php
+var __strArrayDispHref = new Array('http://hooc.heraldcorp.com/superrich', 'http://hooc.heraldcorp.com/greenliving', 'http://hooc.heraldcorp.com/datalab', 'http://hooc.heraldcorp.com/weekend');
+var HomSetTimeOut = -1;
+function HomSwitchImg( nMode )
+{
+	if( HomSetTimeOut != -1 )
+		clearTimeout(HomSetTimeOut);
+	var nOldIndex = __nDispIndexHom;
+	var strImgYesTop = '#homtopimg_' + nOldIndex;
+	if( nMode == 1 )
+	{
+		__nDispIndexHom--;
+		if( __nDispIndexHom < 0 ) __nDispIndexHom = __nMaxIndexHom - 1;
+	}
+	else
+	{
+		__nDispIndexHom++;
+		if( __nDispIndexHom >= __nMaxIndexHom ) __nDispIndexHom = 0;
+	}
+	var strImgNewTop = '#homtopimg_' + __nDispIndexHom;
+	var strDispImg = '#homdispimg';
+	var strDispHref = '#homdisphref';
+
+	$(strDispHref).attr('href', __strArrayDispHref[__nDispIndexHom]);
+	$(strDispImg).attr('src', __strArrayDispImg[__nDispIndexHom]);
+	$(strImgYesTop).attr('src', __strArrayTopOffImg[nOldIndex]);
+	$(strImgNewTop).attr('src', __strArrayTopOnImg[__nDispIndexHom]);
+	HomSetTimeOut = setTimeout( "HomSwitchImg( 2 )", 5000 );
+}
+
+HomSetTimeOut = setTimeout( "HomSwitchImg( 2 )", 5000 );
+</script>
+<!-- &#52968;&#53584;&#52768;-->
+<div id="container">
+<div id="content">
+<!--div class="sub_viewpag_headline">
+			<div class="rank_newsbox_top" >
+				<div class="biz_webtoon">
+					<h3><img src="http://res.heraldm.com/nimages/hom/main_right/title_magazine.gif?pp=001" /></h3>
+					<span>
+						<img id="homtopimg_0" src="http://res.heraldm.com/nimages/hom/viewtop/no1_on.gif" />
+						<img id="homtopimg_1"  src="http://res.heraldm.com/nimages/hom/viewtop/no2_off.gif" />
+						<img id="homtopimg_2"  src="http://res.heraldm.com/nimages/hom/viewtop/no3_off.gif" />
+						<img id="homtopimg_3"  src="http://res.heraldm.com/nimages/hom/viewtop/no4_off.gif" />
+					</span>
+					<ul>
+						<li><a href="javascript:HomSwitchImg(1);"><img src="http://res.heraldm.com/nimages/hom/viewtop/arrow_l.gif" style="margin-top: 35px;margin-right: 2px;" /></a></li>
+						<li><a id="homdisphref" href="http://hooc.heraldcorp.com/superrich/" target="_blank"><img  id="homdispimg" src="http://res.heraldm.com/nimages/hom/viewtop/img1.jpg" /></a></li>
+						<li><a href="javascript:HomSwitchImg(2);"><img src="http://res.heraldm.com/nimages/hom/viewtop/arrow_r.gif" style="margin-top: 35px;margin-left: 2px;" /></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="subtop_webzinestyle_hd">
+				<dl>
+					<dt><a href="http://news.topickorea.co.kr/edu/on_news/ws31.html?code=WS_herald_HI" target="_blank">&#51453;&#50612;&#46972; &#50504;&#50808;&#50892;&#51648;&#45912; &#50689;&#45800;&#50612;, 3&#51452;&#47564;&#50640; 3&#52380;&#44060; &#45796;&#50808;&#50892;..&#45824;&#48149;!</a></dt>
+					<dd>
+						<div class="img"><a href="http://news.topickorea.co.kr/edu/on_news/ws31.html?code=WS_herald_HI" target="_blank"><img src="https://scontent-b.xx.fbcdn.net/hphotos-xap1/t1.0-9/10442494_1515613745334022_3173502553569178199_n.jpg" alt="" /></a></div>
+						<div class="txt">
+							<a href="http://news.topickorea.co.kr/edu/on_news/ws31.html?code=WS_herald_HI" target="_blank">&#50689;&#50612;&#45800;&#50612;&#50640; &#44288;&#47144; &#51060;&#48120;&#51648;&#47484; &#51217;&#47785;&#49884;&#53416; &#51068;&#47749; &#8220;&#45516;&#49352;&#44608;&#50689;&#50612;&#8221;&#47196; &#48520;&#47532;&#45716; &#50892;&#46300;&#49828;&#52992;&#52824;&#44032; &#45572;&#51201;&#49324;&#50857;&#51088; 150&#47564;&#47749;&#51012; &#46028;&#54028;&#54664;&#45796;. &#49436;&#50872;&#51032; &#54620; &#51473;&#54617;&#44368;&#50640;&#49436; &#54617;&#49373;&#46308;&#51060; 3&#51452;&#47564;&#50640; &#54620; &#54617;&#44592; &#48516;&#47049;&#51032; &#45800;&#50612;&#47484; &#51204;&#48512;&#8230;</a>
+						</div>
+					</dd>
+				</dl>
+			</div>
+		</div-->
+<div class="clear" style="padding-bottom: 10px;">
+<iframe allowtransparency="true" frameborder="no" framespacing="0" height="220" hspace="0" marginheight="0" marginwidth="0" scrolling="no" src="http://ad1.eventmanager.co.kr/ADHTML/Ad/heraldpop/heraldpop_675x220.html" vspace="0" width="675"></iframe> </div>
+<!--div class="is_news" style="padding-bottom:10px"-->
+<!--iframe width="330" height="22" border="0" frameborder="0" scrolling="no" src="http://ads.mncmedia.co.kr/mad/HERALDBIZ/up_text_1.html"></iframe>
+        <iframe width="330" height="22" border="0" frameborder="0" scrolling="no" src="http://ads.mncmedia.co.kr/mad/HERALDBIZ/up_text_1.html"></iframe>
+        <iframe width="330" height="22" border="0" frameborder="0" scrolling="no" src="http://ads.mncmedia.co.kr/mad/HERALDBIZ/up_text_1.html"></iframe>
+        <iframe width="330" height="22" border="0" frameborder="0" scrolling="no" src="http://ads.mncmedia.co.kr/mad/HERALDBIZ/up_text_1.html"></iframe-->
+<!--ul class="bt">
+				<li>&#9654; <a href="http://stock.heraldcorp.com/" target="_blank">&#51452;&#49885;&#53804;&#51088; &#49789;&#44256; &#50504;&#51204;&#54616;&#44172; &#54616;&#45716; &#44275; &#8216;&#54756;&#47092;&#46300;&#49828;&#53441;&#47560;&#53011;&#8217;</a></li>
+				<li class="last">&#9654; <a href="http://biz.heraldcorp.com/mobile/?sv=2" target="_blank">&#52572;&#49888;&#45684;&#49828;&#50752; &#50689;&#50612;&#44277;&#48512;&#47484; &#46041;&#49884;&#50640;... &#8216;&#54756;&#47092;&#46300;&#53664;&#54589;&#8217;</a></li>
+				<li>&#9654; <a href="http://confidential.heraldcorp.com/" target="_blank">&#49885;&#54408;&#183;&#51020;&#47308;&#48516;&#50556; &#54532;&#47532;&#48120;&#50628; &#53080;&#53584;&#52768;, &#8216;&#54756;&#47092;&#46300;&#52968;&#54588;&#45940;&#49500;&#8217;</a></li>
+				<li class="last">&#9654; <a href="http://biz.heraldcorp.com/mobile/?sv=3" target="_blank">&#47588;&#51068;&#47588;&#51068; &#51060;&#49800;&#47564; &#48400;&#46020; &#50689;&#50612;&#44032; &#50277;&#50277;, &#8216;&#45684;&#49828;&#47196;&#50689;&#50612;&#44277;&#48512;&#8217;</a></li>
+		</ul>
+		</div-->
+<div class="article">
+<div class="top">
+<div class="cats">
+<img alt="&#54620;&#47448;" src="http://res.heraldm.com/hbpop/img/v01.gif"> </img></div>
+<div class="title"><h1>&#45684;&#49828;&#53440;&#54028; &#44428;&#51008;&#55148; &#51116;&#49328;&#49888;&#44256; &#51032;&#54841;, &#51116;&#49328;&#49888;&#44256; &#47928;&#51228;&#50630;&#45796;&#44256; &#54032;&#45800;...&#50613;&#50872;&#54632; &#54840;&#49548;</h1>
+<span>&#44592;&#49324;&#51077;&#47141; 2014. 07. 19 15:23</span>
+</div>
+</div>
+<!--div class="util">
+					<div class="h_ad">
+						<a href="http://biz.heraldcorp.com/podcast/"><img src="http://res.heraldm.com/nimages/podcast/adpodcast_02.jpg?pp=001" /></a>
+					</div>
+					<div class="sns">
+					<a href=""><img alt="" src="http://res.heraldm.com/hbpop/img/ico_sns_t.gif"></a>
+					<a href=""><img alt="" src="http://res.heraldm.com/hbpop/img/ico_sns_f.gif"></a> 
+					<a href=""><img alt="" src="http://res.heraldm.com/hbpop/img/ico_sns_m.gif"></a> 
+					<a href=""><img alt="" src="http://res.heraldm.com/hbpop/img/icn_sns04.gif"></a>
+					<a href=""><img alt="" src="http://res.heraldm.com/hbpop/img/icn_sns05.gif"></a>
+					</div>
+				</div-->
+<div class="articletext">
+<div style="float:right; margin-left:10px;border:1px solid #DED7D7;width:200px;height:200px;margin-bottom: 10px;">
+<iframe allowtransparency="true" frameborder="no" framespacing="0" height="200" hspace="0" marginheight="0" marginwidth="0" scrolling="no" src="http://ad.about.co.kr/mad/html/heraldp/mid/web" vspace="0" width="200"></iframe> </div>
+				[&#54756;&#47092;&#46300;POP]&#45224;&#54200;&#51032; &#51116;&#49328; &#52629;&#49548; &#51032;&#54841;&#50640; &#55064;&#47568;&#47536; &#44428;&#51008;&#55148; &#49352;&#51221;&#52824;&#48124;&#51452;&#50672;&#54633; &#54980;&#48372;(&#44305;&#51452; &#44305;&#49328;&#51012;)&#44032; &#45224;&#54200;&#51032; &#50613;&#50872;&#54632;&#51012; &#54840;&#49548;&#54664;&#45796;.<br/>
+<br/>
+&#44428;&#51008;&#55148; &#54980;&#48372; &#52769;&#51008; 19&#51068; &#50616;&#47200;&#51012; &#53685;&#54644; &#8220;&#44428;&#51008;&#55148; &#54980;&#48372;&#45716; &#44277;&#51649;&#49440;&#44144;&#54980;&#48372;&#51088; &#51116;&#49328;&#49888;&#44256; &#44508;&#51221;&#50640; &#46384;&#46972; &#45224;&#54200;&#51060; &#48372;&#50976;&#54620; 2&#44060; &#48277;&#51064;&#51032; &#48708;&#49345;&#51109;&#51452;&#49885;&#51012; &#50529;&#47732;&#44032;&#47196; &#49888;&#44256;&#54620; &#44163;&#51068; &#49104; &#51116;&#49328;&#51012; &#52629;&#49548; &#49888;&#44256;&#54624; &#51032;&#46020;&#44032; &#51204;&#54784; &#50630;&#50632;&#45796;&#8221;&#47728; &#8220;&#49440;&#44144;&#44288;&#47532;&#50948;&#50896;&#54924;&#50640;&#46020; &#50976;&#44428;&#54644;&#49437;&#51012; &#50668;&#47084; &#52264;&#47168; &#50836;&#52397;&#54644; &#44428;&#51008;&#55148; &#54980;&#48372;&#51032; &#51116;&#49328; &#49888;&#44256;&#50640; &#47928;&#51228;&#44032; &#50630;&#45796;&#45716; &#54032;&#45800;&#51012; &#48155;&#50520;&#45796;&#8221;&#44256; &#54644;&#47749;&#54664;&#45796;.<br/>
+<br/>
+&#44428;&#51008;&#55148; &#54980;&#48372; &#52769;&#51008; &#8220;&#45224;&#54200;&#51060; &#45824;&#54364;&#51060;&#49324;&#47196; &#51080;&#45716; &#48277;&#51064;&#51032; &#51116;&#49328;&#51008; &#49888;&#44256;&#54616;&#44256; &#49910;&#50612;&#46020; &#54788;&#54665;&#48277;&#49345; &#49888;&#44256;&#54624; &#49688; &#51080;&#45716; &#48277;&#51201; &#44540;&#44144;&#44032; &#50630;&#45796;&#8221;&#47732;&#49436; &#8220;&#44508;&#51221;&#49345; &#51200;&#55148;&#44032; &#51076;&#51032;&#47196; &#51116;&#49328;&#51012; &#45908; &#49888;&#44256;&#54616;&#44144;&#45208; &#52629;&#49548; &#49888;&#44256;&#54624; &#49688; &#50630;&#44172; &#46076; &#51080;&#45796;&#8221;&#44256; &#47568;&#54664;&#45796;. &#51060;&#50612; &#8220;&#47564;&#50557; &#54788;&#54665; &#44277;&#51649;&#51088; &#51116;&#49328;&#49888;&#44256;&#44508;&#51221;&#51032; &#48120;&#48708;&#51216;&#51012; &#48372;&#46020;&#54664;&#45796;&#47732; &#49688;&#44557;&#54624; &#49688; &#51080;&#51648;&#47564;, &#48120;&#48708;&#46108; &#48277;&#47456;&#50640; &#44540;&#44144;&#50640; &#50976;&#46021; &#44428; &#54980;&#48372;&#47564;&#51012; &#48708;&#54032;&#54616;&#45716; &#44163;&#51008; &#51328; &#50613;&#50872;&#54616;&#45796;&#8221;&#44256; &#51204;&#54664;&#45796;.<br/>
+<br/>
+&#44608;&#51221;&#54788; &#49352;&#51221;&#52824;&#50672;&#54633; &#48512;&#45824;&#48320;&#51064;&#46020; &#51060;&#45216; &#8220;&#48277;&#51064; &#47749;&#51032;&#51032; &#51116;&#49328;&#51008; &#51452;&#49885;&#47564; &#50529;&#47732;&#44032;&#47484; &#49888;&#44256;&#54616;&#46020;&#47197; &#46076; &#51080;&#45796;&#8221;&#47732;&#49436; &#8220;&#44428;&#51008;&#55148; &#54980;&#48372;&#45716; &#44221;&#52272; &#51116;&#51649;&#46412;&#46020; &#51060;&#52376;&#47100; &#51116;&#49328;&#49888;&#44256;&#47484; &#54664;&#50632;&#45716;&#45936; &#44277;&#51649;&#51088; &#50980;&#47532;&#50948;&#50896;&#54924;&#47196;&#48512;&#53552; &#49548;&#47749; &#46608;&#45716; &#48372;&#51221;&#51012; &#50836;&#44396; &#48155;&#51008; &#51201;&#51060; &#50630;&#50632;&#45796;&#8221;&#44256; &#54644;&#47749;&#54664;&#45796;.<br/>
+<br/>
+&#44608; &#48512;&#45824;&#48320;&#51064;&#51008; &#8220;&#44428;&#51008;&#55148; &#54980;&#48372;&#44032; &#44277;&#51064;&#51004;&#47196;&#49436; &#44160;&#51613;&#51012; &#48155;&#45716; &#44163;&#51008; &#45817;&#50672;&#54616;&#44256; &#54872;&#50689;&#54624; &#51068;&#51060;&#51648;&#47564;,&#44540;&#44144;&#50630;&#45716; &#48708;&#45212;&#51004;&#47196; &#50501;&#50857;&#46076;&#49436;&#45716; &#50504; &#46108;&#45796;&#8221;&#44256; &#47568;&#54664;&#45796;.<br/>
+<br/>
+<div style="margin-bottom:0px;margin-right:10px; float:left;width:510px;"><img alt="&#51060;&#48120;&#51648;&#50724;&#47480;&#51901;" border="0" src="http://res.heraldm.com/phpwas/restmb_jhidxmake.php?idx=5&amp;simg=201407191523034979640_20140719152302.jpg"/><br/><p style="color:#666; font-size:12px; font-family: arial, dotum,  '&#46027;&#50880;';text-align:left;width:510px;">&#9650;&#45684;&#49828;&#53440;&#54028; &#44428;&#51008;&#55148; &#51116;&#49328;&#49888;&#44256; &#51032;&#54841;(&#49324;&#51652;=&#52292;&#45328;A &#52897;&#52376;)</p></div><br/>
+&#50526;&#49436; &#51064;&#53552;&#45367; &#50616;&#47200; &#8216;&#45684;&#49828;&#53440;&#54028;&#8217;&#45716; &#44428;&#51008;&#55148; &#54980;&#48372;&#51032; &#45224;&#54200; &#45224;&#47784;&#50472;&#44032; &#49688;&#49901;&#50613;&#50896;&#45824; &#48512;&#46041;&#49328;&#51012; &#48372;&#50976;&#54616;&#44256; &#51080;&#51020;&#50640;&#46020; &#51116;&#49328;&#49888;&#44256; &#44284;&#51221;&#50640;&#49436; &#51060;&#47484; &#52629;&#49548;&#54664;&#45796;&#44256; &#48372;&#46020;&#54664;&#45796;.<br/>
+<br/>
+&#44428;&#51008;&#55148; &#54980;&#48372;&#45716; &#50528;&#52488; &#51088;&#49888;&#44284; &#48176;&#50864;&#51088;&#51032; &#52509;&#51116;&#49328;&#51060; 5&#50613;8000&#47564;&#50896;&#51060;&#46972;&#44256; &#49440;&#44288;&#50948;&#50640; &#49888;&#44256;&#54664;&#45796;. &#44428;&#51008;&#55148; &#54980;&#48372;&#45716; &#52649;&#48513; &#52397;&#51452;&#51032; 7&#52789;&#51676;&#47532; &#48716;&#46377; &#45236; &#49345;&#44032; 3&#44275;&#51060; &#45224;&#50472;&#51032; &#47749;&#51032;&#46972;&#44256; &#49888;&#44256;&#54664;&#51648;&#47564; &#45224;&#50472;&#44032; &#45824;&#54364; &#51060;&#49324;&#47196; 40%&#51032; &#51648;&#48516;&#51012; &#44032;&#51652; &#48512;&#46041;&#49328; &#47588;&#47588;&#50629;&#52404; &#8216;&#49828;&#47560;&#53944; &#50640;&#46272;&#8217;&#45716; &#51060; &#44148;&#47932; &#45236; &#49345;&#44032; 7&#44275;&#51012; &#49548;&#50976;&#54616;&#44256; &#51080;&#51004;&#47728;, &#49892;&#44144;&#47000;&#44032;&#45716; 30&#50613;&#50896; &#51060;&#49345;&#51004;&#47196; &#52628;&#51221;&#46108;&#45796;&#44256; &#45684;&#49828;&#53440;&#54028;&#45716; &#48157;&#54804;&#45796;.<br/>
+<br/>
+&#46608; &#49828;&#47560;&#53944; &#50640;&#46272;&#45716; &#51060; &#44148;&#47932;&#50640;&#49436;&#47564; &#50900;&#49464;&#47196; 1400&#47564;&#50896;&#51012; &#48268;&#50612;&#46308;&#51060;&#44256; &#51080;&#51648;&#47564; &#44428;&#51008;&#55148; &#54980;&#48372;&#45716; &#45224;&#54200;&#51060; &#48372;&#50976;&#54620; &#51060; &#48277;&#51064;&#51032; &#51452;&#49885; 8000&#51452;&#51032; &#50529;&#47732;&#44032;(4000&#47564;&#50896;)&#47564; &#49888;&#44256;&#54664;&#45796;.<br/>
+<br/>
+&#49828;&#47560;&#53944; &#50640;&#46272;&#45716; &#49324;&#47924;&#49892;&#44284; &#51649;&#50896;&#46020; &#44054;&#52628;&#51648; &#50506;&#51008; &#54924;&#49324;&#47196; &#45224;&#50472; &#44060;&#51064;&#44592;&#50629;&#44284; &#45796;&#47484;&#48148; &#50630;&#45796;&#44256; &#45684;&#49828;&#53440;&#54028;&#45716; &#51204;&#54664;&#45796;.<br/>
+<br/>
+&#51060;&#47484; &#51217;&#54620; &#45572;&#47532;&#44988;&#46308;&#51008; "&#45684;&#49828;&#53440;&#54028; &#44428;&#51008;&#55148; &#51116;&#49328;&#49888;&#44256; &#51032;&#54841;, &#51068;&#48512;&#47084; &#52629;&#49548;&#54620; &#44163;?", "&#45684;&#49828;&#53440;&#54028; &#44428;&#51008;&#55148; &#51116;&#49328;&#49888;&#44256; &#51032;&#54841;, &#48277;&#51060; &#47928;&#51228; &#51080;&#45912;&#44144; &#50500;&#45772;&#44032;", "&#45684;&#49828;&#53440;&#54028; &#44428;&#51008;&#55148; &#51116;&#49328;&#49888;&#44256; &#51032;&#54841;, &#51652;&#49345; &#48157;&#55176;&#44600;" &#46321;&#51032; &#48152;&#51025;&#51012; &#48372;&#50688;&#45796;.<br/>
+<br/>
+<br/>popnews@heraldcorp.com				
+				<!--ul class="addarticle">
+				<li>&#9654; <a href="" target="_blank">[SUPER RICH] &#49464;&#44228;&#50640;&#49436; &#46024; &#44032;&#51109; &#47566;&#51060; &#48260;&#45716; &#49828;&#54252;&#52768; &#49828;&#53440;&#45716;?</a></li>
+				<li>&#9654; <a href="" target="_blank">[SUPER RICH] &#49464;&#44228;&#50640;&#49436; &#46024; &#44032;&#51109; &#47566;&#51060; &#48260;&#45716; &#49828;&#54252;&#52768; &#49828;&#53440;&#45716;?</a></li>
+				<li>&#9654; <a href="" target="_blank">[SUPER RICH] &#49464;&#44228;&#50640;&#49436; &#46024; &#44032;&#51109; &#47566;&#51060; &#48260;&#45716; &#49828;&#54252;&#52768; &#49828;&#53440;&#45716;?</a></li>
+				<li>&#9654; <a href="" target="_blank">[SUPER RICH] &#49464;&#44228;&#50640;&#49436; &#46024; &#44032;&#51109; &#47566;&#51060; &#48260;&#45716; &#49828;&#54252;&#52768; &#49828;&#53440;&#45716;?</a></li>
+				<li>&#9654; <a href="" target="_blank">[SUPER RICH] &#49464;&#44228;&#50640;&#49436; &#46024; &#44032;&#51109; &#47566;&#51060; &#48260;&#45716; &#49828;&#54252;&#52768; &#49828;&#53440;&#45716;?</a></li>
+				</ul-->
+</div>
+</div>
+<!--&#54252;&#53664;-->
+<div style="clear:both;margin-top:15px; margin-bottom:15px;">
+<iframe allowtransparency="true" frameborder="no" framespacing="0" height="150" hspace="0" marginheight="0" marginwidth="0" scrolling="no" src="http://adx.naonmedia.net/adx/data/NAONMP5341.html" vspace="0" width="675"></iframe> </div>
+<div class="sectionwr pview">
+<div class="photo">
+<h3><a href="http://biz.heraldcorp.com/photo/slmain.php" target="_blank"><img alt="&#54252;&#53664;&#49836;&#46972;&#51060;&#46300;" src="http://res.heraldm.com/hbpop/img/vb01.gif"/></a></h3>
+<ul>
+<li><a href="http://biz.heraldcorp.com/photo/ptview.php?ct=1&amp;ud=135" target="_blank"><img src="http://res.heraldm.com/phpwas/upcontload_idxmake.php?idx=2&amp;simg=20140717143159_fd_thumb_211_54_35_200_1829.jpg" width="150"/>&#48120;&#49828;&#53076;&#47532;&#50500; &#51652;, '&#47588;&#47141; &#45336;&#52824;&#45716; &#48708;&#53412;&#45768;'</a></li> <li><a href="http://biz.heraldcorp.com/photo/ptview.php?ct=1&amp;ud=134" target="_blank"><img src="http://res.heraldm.com/phpwas/upcontload_idxmake.php?idx=2&amp;simg=20140717102143_fd_thumb_211_54_35_200_4630.jpg" width="150"/>&#54056;&#47532;&#49828; &#55184;&#53948;,'&#47085;&#49492;&#47532;&#54620; &#44277;&#54637;&#54056;&#49496;'</a></li> <li><a href="http://biz.heraldcorp.com/photo/ptview.php?ct=1&amp;ud=132" target="_blank"><img src="http://res.heraldm.com/phpwas/upcontload_idxmake.php?idx=2&amp;simg=20140715104448_fd_thumb_211_54_35_200_9167.jpg" width="150"/>&#48708;&#53412;&#45768; &#54588;&#53944;&#45768;&#49828;&#46972;&#45716; &#47691;&#51652; &#44221;&#44592;</a></li> <li class="last"><a href="http://biz.heraldcorp.com/photo/ptview.php?ct=1&amp;ud=133" target="_blank"><img src="http://res.heraldm.com/phpwas/upcontload_idxmake.php?idx=2&amp;simg=20140715105833_fd_thumb_211_54_35_200_7289.jpg" width="150"/>&#8216;2014 &#49436;&#50872;&#50724;&#53664;&#49332;&#47217;&#8217; &#47112;&#51060;&#49905;&#47784;&#45944;&#51032; &#46020;&#48156;&#51201;&#51064; &#45576;&#48731;</a></li> </ul>
+<div class="clear"></div>
+</div>
+</div>
+<!--&#44305;&#44256;-->
+<div class="viewad">
+<h3><img alt="&#51064;&#44592;&#51221;&#48372;" src="http://res.heraldm.com/hbpop/img/title_inki.gif" style="padding-bottom:15px"/></h3>
+<iframe allowtransparency="true" frameborder="no" framespacing="0" height="140" hspace="0" marginheight="0" marginwidth="0" scrolling="no" src="http://ad.ad4989.co.kr/cgi-bin/PelicanC.dll?impr?pageid=00K3&amp;out=iframe" vspace="0" width="675"></iframe> </div>
+<!--&#50724;&#45720;&#51032; &#51452;&#50836;&#45684;&#49828;-->
+<div class="is_news">
+<h3><img alt="&#50724;&#45720;&#51032; &#51452;&#50836;&#44592;&#49324;" src="http://res.heraldm.com/hbpop/img/vb02.gif"/></h3>
+<ul class="top">
+<li><a href="/view.php?ud=201407181029282230350_1"><img alt="" src="http://res.heraldm.com/phpwas/restmb_jhidxmake.php?idx=39&amp;simg=201407181029282230350_20140718104613_01.jpg" width="122"><strong>&#48709;&#48197; &#45824;&#49457;, &#26085; &#48512;&#46020;&#52856;&#49436; 2&#45380; &#50672;&#49549; '10&#47564;&#47749; &#46041;&#50896;' &#45804;&#49457;</strong>&#48709;&#48197; &#45824;&#49457;&#51060; 17&#51068;, &#51068;&#48376; &#45768;&#54844; &#48512;&#46020;&#52856;&#50640;&#49436; &#52376;&#51020; &#44060;&#52572;&#54620; &#49556;&#47196; &#53080;&#49436;...</img></a></li>
+<li class="last"><a href="/view.php?ud=201407172229571096014_1"><img alt="" src="http://res.heraldm.com/phpwas/restmb_jhidxmake.php?idx=39&amp;simg=201407172229571096014_20140717223123_01.jpg" width="122"><strong>[PiFan] &#49900;&#51008;&#44221;, &#48512;&#52380; &#49884;&#48124;&#51060; &#44032;&#51109; &#47564;&#45208;&#44256; &#49910;&#51008; &#48176;&#50864;</strong>&#48176;&#50864; &#49900;&#51008;&#44221;&#51060; &#51228;18&#54924; &#48512;&#52380;&#44397;&#51228;&#54032;&#53440;&#49828;&#54001;&#50689;&#54868;&#51228; &#54861;&#48372;&#45824;&#49324;&#47196;&#49436; &#49688;&#49345;...</img></a></li>
+<li><a href="/view.php?ud=201407180832301707357_1"><img alt="" src="http://res.heraldm.com/phpwas/restmb_jhidxmake.php?idx=39&amp;simg=201407180832301707357_20140718083430_01.jpg" width="122"><strong>&#48149;&#51221;&#50500;, '&#50696;&#48848;&#51656; &#51648;&#46020;' &#54633;&#47448;&#8230;2&#45380; &#47564;&#51032; &#50696;&#45733; &#45208;&#46308;&#51060;</strong>&#48176;&#50864; &#48149;&#51221;&#50500;&#44032; 2&#45380;&#47564;&#50640; &#50696;&#45733; &#45208;&#46308;&#51060;&#50640; &#45208;&#49440;&#45796;. &#49548;&#49549;&#49324; &#45908;&#48660;&#50976;&#50656;&#52980;...</img></a></li>
+<li class="last"><a href="/view.php?ud=201407180903371828137_1"><img alt="" src="http://res.heraldm.com/phpwas/restmb_jhidxmake.php?idx=39&amp;simg=201407180903371828137_20140718090730_01.jpg" width="122"><strong>&#45208;&#51064;&#48036;&#51648;&#49828; &#44221;&#47532;, &#50740;&#48064;&#51032; '&#51079; &#44152;' &#48156;&#53441;</strong>&#52980;&#48177;&#51012; &#50526;&#46164; '&#50740;&#48064;'&#50752; &#45208;&#51064;&#48036;&#51648;&#49828; &#44221;&#47532;&#51032; &#50976;&#53132; &#48156;&#46980; &#51064;&#51613;&#49399;&#51060; &#44277;...</img></a></li>
+<li><a href="/view.php?ud=201407172239511138924_1"><img alt="" src="http://res.heraldm.com/phpwas/restmb_jhidxmake.php?idx=39&amp;simg=201407172239511138924_20140717224234_01.jpg" width="122"><strong>'&#54028;&#44201; &#46300;&#47112;&#49828;' &#49552;&#50696;&#51652; VS &#50724;&#51064;&#54812;, &#45572;&#44032; &#49465;&#49884; &#53304;?</strong>[&#51228;18&#54924; &#48512;&#52380;&#44397;&#51228;&#54032;&#53440;&#49828;&#54001;&#50689;&#54868;&#51228; &#44060;&#47561;&#49885; &#47112;&#46300;&#52852;&#54187;] &#48176;&#50864; &#49552;&#50696;&#51652;&#44284;...</img></a></li>
+<li class="last"><a href="/view.php?ud=201407180945301924182_1"><img alt="" src="http://res.heraldm.com/phpwas/restmb_jhidxmake.php?idx=39&amp;simg=201407180945301924182_20140718094609_01.jpg" width="122"><strong>'&#47560;&#51060; &#50920;&#46377;' &#51060;&#54952;&#47532; &#48660;&#47196;&#44536;&#50640; &#44208;&#54844;&#49885; &#49324;&#51652; &#44277;&#44060;</strong>&#51060;&#54952;&#47532; &#48660;&#47196;&#44536;&#44032;&#49688; &#51060;&#54952;&#47532;&#44032; &#51088;&#49888;&#51032; &#48660;&#47196;&#44536;&#47484; &#53685;&#54644; &#44208;&#54844;&#49885; &#49324;&#51652;&#51012;...</img></a></li>
+</ul>
+</div>
+<!--&#44305;&#44256;-->
+<div class="viewad">
+<iframe allowtransparency="true" frameborder="no" framespacing="0" height="220" hspace="0" marginheight="0" marginwidth="0" scrolling="no" src="http://res.heraldm.com/iframe/about_heraldpop_shopbox.html" vspace="0" width="675"></iframe> </div>
+</div>
+<div id="RightScroll001" style="position: absolute; width: 120px; margin-left: 970px; margin-top: 155px;">
+<iframe allowtransparency="true" frameborder="no" framespacing="0" height="600" hspace="0" marginheight="0" marginwidth="0" scrolling="no" src="http://adin.ad4980.kr/s/2014/06/27/z1184836296.html" vspace="0" width="120"></iframe> </div>
+<div id="RightScroll002" style="position: absolute; width: 120px; margin-left: -130px; margin-top: 155px;">
+<iframe allowtransparency="true" frameborder="no" framespacing="0" height="600" hspace="0" marginheight="0" marginwidth="0" scrolling="no" src="http://ad.ad4989.co.kr/cgi-bin/PelicanC.dll?impr?pageid=00K2&amp;out=iframe" vspace="0" width="120"></iframe> </div>
+<script>
+var currentPosition = parseInt($("#RightScroll001").css("margin-top"));
+$(window).scroll(function() {
+	var position = $(window).scrollTop();
+	if( position > 200 )
+	{
+		position -= 210;
+		$("#RightScroll001").stop().animate({"margin-top":position+currentPosition+"px"},1000);
+		$("#RightScroll002").stop().animate({"margin-top":position+currentPosition+"px"},1000);
+	}
+	else
+	{
+		$("#RightScroll001").stop().animate({"margin-top":"155px"},1000);
+		$("#RightScroll002").stop().animate({"margin-top":"155px"},1000);
+	}
+});
+</script>
+<div id="aside">
+<div class="ad aside">
+<iframe allowtransparency="true" frameborder="no" framespacing="0" height="250" hspace="0" marginheight="0" marginwidth="0" scrolling="no" src="http://ad.about.co.kr/mad/html/heraldp/right_top/web" vspace="0" width="250"></iframe> </div>
+<div class="rank aside">
+<h3><img alt="&#47566;&#51060;&#48376;&#45684;&#49828;" src="http://res.heraldm.com/hbpop/img/s01.gif"/></h3>
+<div class="tab01">
+<ol style="margin-top:0px;border-top: 1px solid #dde1e4;">
+<li style="width:234px;height:23px;overflow:hidden;text-overflow: ellipsis;white-space: nowrap;"><img alt="1&#50948;" src="http://res.heraldm.com/hbpop/img/n1.gif"><a href="/view.php?ud=201407180054021378432_1">&#49849;&#44061; 295&#47749; &#53468;&#50868; &#47568;&#47112;&#51060;&#49884;&#50500; &#50668;&#44061;&#44592; &#52628;&#46973;</a></img></li>
+<li style="width:234px;height:23px;overflow:hidden;text-overflow: ellipsis;white-space: nowrap;"><img alt="2&#50948;" src="http://res.heraldm.com/hbpop/img/n2.gif"><a href="/view.php?ud=201407181154042585228_1">&#54644;&#54588;&#53804;&#44172;&#45908; &#48149;&#44592;&#47049; "&#48708;&#53412;&#45768; &#45320;&#47924; &#51089;&#50500;, &#49892;&#51228; &#49324;&#51652; &#48372;&#45768;..", &#52380;&#51060;&#49836; &#50577;&#49345;&#44397; &#48152;&#51204; &#47588;&#47141; &#50616;&#44553; '&#45576;&#44600;'</a></img></li>
+<li style="width:234px;height:23px;overflow:hidden;text-overflow: ellipsis;white-space: nowrap;"><img alt="3&#50948;" src="http://res.heraldm.com/hbpop/img/n3.gif"><a href="/view.php?ud=201407181251032805714_1">&#54644;&#54588;&#53804;&#44172;&#45908; &#48149;&#44592;&#47049; "'&#44264;&#48152; &#50630;&#45796;, &#44032;&#49844; &#51089;&#45796;' &#50501;&#54540;&#50640; &#45576;&#47932;"...&#49892;&#51228; &#44305;&#44256; &#49324;&#51652; &#48372;&#45768;</a></img></li>
+<li style="width:234px;height:23px;overflow:hidden;text-overflow: ellipsis;white-space: nowrap;"><img alt="4&#50948;" src="http://res.heraldm.com/hbpop/img/n4.gif"><a href="/view.php?ud=201407180102091392285_1">[&#44596;&#44553;] &#47568;&#47112;&#51060;&#49884;&#50500; &#50668;&#44061;&#44592;, &#48120;&#49324;&#51068; &#47582;&#44256; &#52628;&#46973;&#54620;&#46319;</a></img></li>
+<li style="width:234px;height:23px;overflow:hidden;text-overflow: ellipsis;white-space: nowrap;"><img alt="5&#50948;" src="http://res.heraldm.com/hbpop/img/n5.gif"><a href="/view.php?ud=201407181038032247038_1">&#47568;&#47112;&#51060; &#50668;&#44061;&#44592; &#44201;&#52628;, 298&#47749; &#51204;&#50896; &#49324;&#47581;.. &#47568;&#47112;&#51060;&#49884;&#50500; &#54637;&#44277; &#52488;&#48708;&#49345; "&#50864;&#53356;&#46972;&#51060;&#45208; &#48152;&#44400; &#49548;&#54665;(?)"</a></img></li>
+<li style="width:234px;height:23px;overflow:hidden;text-overflow: ellipsis;white-space: nowrap;"><img alt="6&#50948;" src="http://res.heraldm.com/hbpop/img/n6.gif"><a href="/view.php?ud=201407181919043895695_1">&#51060;&#54952;&#47532; &#48660;&#47196;&#44536; &#44208;&#54844;&#49885; &#49324;&#51652; &#50732;&#47160;&#45796;&#44032; &#49325;&#51228;...'&#47924;&#49832; &#51068;?'</a></img></li>
+<li style="width:234px;height:23px;overflow:hidden;text-overflow: ellipsis;white-space: nowrap;"><img alt="7&#50948;" src="http://res.heraldm.com/hbpop/img/n7.gif"><a href="/view.php?ud=201407182218014306363_1">&#47568;&#47112;&#51060;&#49884;&#50500; &#50668;&#44061;&#44592; &#54588;&#44201; &#53457;&#49849;&#44061; &#54168;&#51060;&#49828;&#48513;&#50640; &#45453;&#45812;&#54620; &#44544;&#51060;....'&#49548;&#47492;'</a></img></li>
+<li style="width:234px;height:23px;overflow:hidden;text-overflow: ellipsis;white-space: nowrap;"><img alt="8&#50948;" src="http://res.heraldm.com/hbpop/img/n8.gif"><a href="/view.php?ud=201407181451043120670_1">&#54644;&#54588;&#53804;&#44172;&#45908; &#52380;&#51060;&#49836;&#183;&#48149;&#44592;&#47049; &#48124;&#45231; &#44277;&#44060;, &#48149;&#44592;&#47049; "'&#44032;&#49844; &#51089;&#45796;' &#50501;&#54540;&#44284; &#52824;&#47560; &#48145; &#55092;&#45824;&#51204;&#54868; '&#49548;&#47492;'"</a></img></li>
+<li style="width:234px;height:23px;overflow:hidden;text-overflow: ellipsis;white-space: nowrap;"><img alt="9&#50948;" src="http://res.heraldm.com/hbpop/img/n9.gif"><a href="/view.php?ud=201407190040594448091_1">'&#50616;&#45908; &#45908; &#49828;&#53416;' &#49828;&#52860;&#47131; &#50836;&#54620;&#49832;, "&#49892;&#50724;&#46972;&#44592; &#54616;&#45208; &#50630;&#51060;" &#51204;&#46972; &#50672;&#44592;</a></img></li>
+</ol>
+</div>
+</div>
+<div class="ad aside">
+<div class="rank aside">
+<h3><img alt="" src="http://res.heraldm.com/hbpop/img/pop_title01.gif"/></h3>
+<ol style="margin-top:0px;border-top: 1px solid #dde1e4;">
+<iframe allowtransparency="true" frameborder="no" framespacing="0" height="230" hspace="0" marginheight="0" marginwidth="0" scrolling="no" src="http://adin.ad4980.kr/s/2014/06/27/z1185737963.html" vspace="0" width="250"></iframe> </ol>
+</div>
+</div>
+<div class="ad aside">
+<div class="rank aside">
+<h3><img alt="" src="http://res.heraldm.com/hbpop/img/pop_title02.gif"/></h3>
+<ol style="margin-top:0px;border-top: 1px solid #dde1e4;">
+<iframe allowtransparency="true" frameborder="no" framespacing="0" height="230" hspace="0" marginheight="0" marginwidth="0" scrolling="no" src="http://adin.ad4980.kr/s/2014/06/27/z1191400932.html" vspace="0" width="250"></iframe> </ol>
+</div>
+</div>
+<div class="ad aside">
+<div class="rank aside">
+<h3><img alt="" src="http://res.heraldm.com/hbpop/img/pop_title03.gif"/></h3>
+<ol style="margin-top:0px;border-top: 1px solid #dde1e4;">
+<iframe allowtransparency="true" frameborder="no" framespacing="0" height="230" hspace="0" marginheight="0" marginwidth="0" scrolling="no" src="http://adin.ad4980.kr/s/2014/06/27/z1190402448.html" vspace="0" width="250"></iframe> </ol>
+</div>
+</div>
+<div class="photo aside">
+<h3><img alt="&#50672;&#50696;&#54252;&#53664;" src="http://res.heraldm.com/hbpop/img/s02.gif"/></h3>
+<ul>
+<li>
+<h4><a href="http://biz.heraldcorp.com/view.php?ud=20140719000090" target="_blank">&#54620;&#44397; &#52572;&#44256; &#46244;&#53468; &#48120;&#45376;&#45716;?</a></h4>
+<a href="http://biz.heraldcorp.com/view.php?ud=20140719000090" target="_blank"><img alt="" src="http://res.heraldm.com/phpwas/restmb_idxmake.php?idx=18&amp;simg=/content/image/2014/07/19/20140719000090_p.jpg&amp;md=20140719144652" width="82"/>19&#51068; &#50724;&#54980; &#44053;&#45224;&#44396; &#52397;&#45812;&#46041; &#51068;&#51648;&#50500;&#53944;&#54848;&#50640;&#49436; 2014Miss sexy back &#49440;&#48156;&#45824;&#54924;&#44032; &#50676;...</a>
+</li> <li>
+<h4><a href="http://biz.heraldcorp.com/view.php?ud=20140718000537" target="_blank">&#54788;&#50500;, &#49549;&#50743; &#52264;&#47548;&#51004;&#47196; '&#50500;&#52244;'</a></h4>
+<a href="http://biz.heraldcorp.com/view.php?ud=20140718000537" target="_blank"><img alt="" src="http://res.heraldm.com/phpwas/restmb_idxmake.php?idx=18&amp;simg=/content/image/2014/07/18/20140718000852_p.jpg&amp;md=20140718114255" width="82"/> &#54788;&#50500;&#51032; &#49888;&#44257; &#8216;&#48744;&#44060;&#50836;&#8217; &#54000;&#51200; &#51060;&#48120;&#51648;&#44032; &#44277;&#44060;&#46076; &#45576;&#44600;&#51012; &#45132;&#50632;&#45796;. &#54788;&#50500;&#45716; 18&#51068;...</a>
+</li> <li>
+<h4><a href="http://biz.heraldcorp.com/view.php?ud=20140714000442" target="_blank">&#49548;&#50976; &#49892;&#51228; &#47800;&#47588;, &#51060; &#51221;&#46020;?</a></h4>
+<a href="http://biz.heraldcorp.com/view.php?ud=20140714000442" target="_blank"><img alt="" src="http://res.heraldm.com/phpwas/restmb_idxmake.php?idx=18&amp;simg=/content/image/2014/07/14/20140714000528_p.jpg&amp;md=20140714104021" width="82"/> &#50472;&#49828;&#53440; &#47716;&#48260; &#49548;&#50976;&#51032; &#52524;&#50689;&#51109; &#49324;&#51652;&#51060; &#44277;&#44060;&#46076; &#45576;&#44600;&#51012; &#45132;&#50632;&#45796;. &#52572;&#44540; &#54620; &#50728;&#46972;&#51064;...</a>
+</li> <li>
+<h4><a href="http://biz.heraldcorp.com/view.php?ud=20140711000829" target="_blank">&#44053;&#51648;&#54872;, &#54596;&#47532;&#54592; &#63873;&#50752; '&#54028;&#47928;'</a></h4>
+<a href="http://biz.heraldcorp.com/view.php?ud=20140711000829" target="_blank"><img alt="" src="http://res.heraldm.com/phpwas/restmb_idxmake.php?idx=18&amp;simg=/content/image/2014/07/11/20140711001027_p.jpg&amp;md=20140712161551" width="82"/> &#48176;&#50864; &#44053;&#51648;&#54872;&#51060; &#54596;&#47532;&#54592; &#50668;&#49457;&#44284;&#51032; &#52840;&#45824; &#49472;&#52852; &#49324;&#51652;&#51060; &#44277;&#44060;&#46076; &#45436;&#46976;&#51060; &#51068;&#51088; &#54644;&#47749;...</a>
+</li> </ul>
+</div>
+<div class="ad aside">
+<iframe allowtransparency="true" frameborder="no" framespacing="0" height="250" hspace="0" marginheight="0" marginwidth="0" scrolling="no" src="http://adw.heraldm.com/cgi-bin/conad.fcgi/heraldpop/HP_Main_Right2_250" vspace="0" width="250"></iframe> </div>
+<div class="photonews aside">
+<h3><img alt="&#54252;&#53664;&#45684;&#49828;" src="http://res.heraldm.com/hbpop/img/s03.gif"/></h3>
+<a class="more" href="">+&#45908;&#48372;&#44592;</a>
+<ul class="left">
+<li style="overflow:hidden;line-height:20px;"><a href="http://biz.heraldcorp.com/photo/ptview.php?ud=344966" target="_blank"><img alt="" src="http://res.heraldm.com/phpwas/restmb_idxmake.php?idx=75&amp;simg=%2Fcontent%2Fimage%2F2014%2F07%2F19%2F20140719000098_0.jpg" width="120">&lt;&#54252;&#53664;&gt;&#51088;&#49888;&#44048; &#45336;&#52824;&#45716; &#54252;&#51592;&#51032; &#52280;&#44032;&#51088;</img></a></li><li style="overflow:hidden;line-height:20px;"><a href="http://biz.heraldcorp.com/photo/ptview.php?ud=344056" target="_blank"><img alt="" src="http://res.heraldm.com/phpwas/restmb_idxmake.php?idx=75&amp;simg=%2Fextcontent%2Frecvnews%2F2014%2F07%2F18%2F2014071893040O_0.jpg" width="120">&#48712;&#51648;&#45432;, &#44256;&#51456;&#55148;&#50752; &#52964;&#54540; &#54868;&#48372;&#8230;&#53412;&#49828; &#51649;&#51204; '&#52272;&#52853;'</img></a></li><li style="overflow:hidden;line-height:20px;"><a href="http://biz.heraldcorp.com/photo/ptview.php?ud=343683" target="_blank"><img alt="" src="http://res.heraldm.com/phpwas/restmb_idxmake.php?idx=75&amp;simg=%2Fcontent%2Fimage%2F2014%2F07%2F17%2F20140717001456_1.jpg" width="120">&lt;&#54252;&#53664;&gt;&#8216;&#48512;&#52380;&#44397;&#51228;&#54032;&#53440;&#49828;&#54001;&#50689;&#54868;&#51228;&#8217; &#50976;&#46972;&#49457; &#8216;&#54028;&#44201;&#51201;&#51064; &#51032;&#49345;&#8217;</img></a></li> </ul>
+<ul class="right">
+<li style="overflow:hidden;line-height:20px;"><a href="http://biz.heraldcorp.com/photo/ptview.php?ud=344018" target="_blank"><img alt="" src="http://res.heraldm.com/phpwas/restmb_idxmake.php?idx=75&amp;simg=%2Fextcontent%2Frecvnews%2F2014%2F07%2F18%2F2014071893008O_0.jpg" width="120">&#54788;&#50500;, '&#48744;&#44060;&#50836;' &#49692;&#48177;&#51032; &#46976;&#51228;&#47532; &#54000;&#51200;&#8230;'&#52824;&#47749;&#51201; &#49465;&#49884;'</img></a></li><li style="overflow:hidden;line-height:20px;"><a href="http://biz.heraldcorp.com/photo/ptview.php?ud=344209" target="_blank"><img alt="" src="http://res.heraldm.com/phpwas/restmb_idxmake.php?idx=75&amp;simg=%2Fextcontent%2Frecvnews%2F2014%2F07%2F18%2F2014071893191O_0.jpg" width="120">f(x) &#49444;&#47532; &#52769; &#8220;&#8216;&#48036;&#48197;&#8217; &#48520;&#52280;..&#52968;&#46356;&#49496; &#54924;&#48373; &#51473;&#8221;</img></a></li><li style="overflow:hidden;line-height:20px;"><a href="http://biz.heraldcorp.com/photo/ptview.php?ud=343801" target="_blank"><img alt="" src="http://res.heraldm.com/phpwas/restmb_idxmake.php?idx=75&amp;simg=%2Fcontent%2Fimage%2F2014%2F07%2F17%2F20140717001475_1.jpg" width="120">&#49552;&#50696;&#51652;,&#8216;&#50556;&#49549;&#54620; &#48148;&#46988;&#50640; &#52824;&#47560;&#49549;&#51060; &#49332;&#51677;&#8217;</img></a></li> </ul>
+<div class="ad aside" style="padding-top: 490px;">
+<iframe allowtransparency="true" frameborder="no" framespacing="0" height="250" hspace="0" marginheight="0" marginwidth="0" scrolling="no" src="http://adw.heraldm.com/cgi-bin/conad.fcgi/heraldpop/HP_Sub_Right4_250" vspace="0" width="250"></iframe> </div>
+</div>
+</div>
+</div>
+<!-- &#52968;&#53584;&#52768;//-->
+<!-- &#54411;&#53552;-->
+<div id="footer">
+<div class="bottom_menu">
+<ul>
+<li class="first"><a href="http://company.heraldcorp.com" target="_blank">&#54924;&#49324;&#49548;&#44060;</a></li>
+<li><a href="http://company.heraldcorp.com/contact/contact.html" target="_blank">&#51228;&#55092;&#50504;&#45236;</a></li>
+<li><a href="http://company.heraldcorp.com/contact/ad_infor.html" target="_blank">&#44305;&#44256;&#50504;&#45236;</a></li>
+<li><a href="http://biz.heraldcorp.com/policy/?sv=2" target="_blank">&#51200;&#51089;&#44428;&#44508;&#50557;</a></li>
+<li class="last"><a href="http://biz.heraldcorp.com/custom/?sv=4" target="_blank">&#44256;&#52649;&#52376;&#47532;&#51064;&#51228;&#46020;</a></li>
+</ul>
+</div>
+<div class="foot"><img alt="" src="http://res.heraldm.com/hbpop/img/footer.gif" usemap="#footer"/></div>
+<map name="footer">
+<area alt="&#54756;&#47092;&#46300;&#44221;&#51228;" coords="90,1,144,13" href="http://biz.heraldcorp.com" shape="rect" target="_blank"></area>
+<area alt="&#53076;&#47532;&#50500;&#54756;&#47092;&#46300;" coords="150,0,213,13" href="http://www.koreaherald.com" shape="rect" target="_blank"></area>
+<area alt="&#51452;&#45768;&#50612;&#54756;&#47092;&#46300;" coords="219,0,284,14" href="http://junior.heraldcorp.com" shape="rect" target="_blank"></area>
+<area alt="&#48120;&#51452;&#54756;&#47092;&#46300;&#44221;&#51228;" coords="290,0,362,14" href="http://www.koreaheraldbiz.com/" shape="rect" target="_blank"></area>
+<area alt="&#54756;&#47092;&#46300;&#50640;&#46272;" coords="367,0,420,15" href="http://heraldedu.co.kr/" shape="rect" target="_blank"></area>
+<area alt="&#54756;&#47092;&#46300;&#50500;&#52852;&#45936;&#48120;" coords="425,1,499,17" href="http://www.heraldacademy.co.kr/" shape="rect" target="_blank"></area>
+<area alt="&#49436;&#50872;" coords="504,0,524,18" href="http://www.sev.go.kr/" shape="rect" target="_blank"></area>
+<area alt="&#48512;&#49328;" coords="527,0,547,18" href="http://www.bgv.co.kr/(X(1)S(qoybbu55ajru1wugvgnq0zik))/Default.aspx?AspxAutoDetectCookieSupport=1" shape="rect" target="_blank"></area>
+<area alt="&#47785;&#54252;" coords="547,0,577,18" href="http://www.mpev.go.kr/" shape="rect" target="_blank"></area>
+<area alt="&#44144;&#51228;" coords="579,0,609,18" href="http://www.gev.co.kr/" shape="rect" target="_blank"></area>
+<area alt="&#54217;&#53469; &#50689;&#50612;&#47560;&#51012;" coords="611,0,661,18" href="http://www.peec.go.kr/" shape="rect" target="_blank"></area>
+<area alt="&#46356;&#51648;&#53560;&#54756;&#47092;&#46300;" coords="672,1,736,17" href="http://www.dherald.com/" shape="rect" target="_blank"></area>
+<area alt="&#46041;&#50500;TV/DIAF" coords="742,0,811,16" href="http://www.dongatv.net/" shape="rect" target="_blank"></area>
+<area alt="&#54756;&#47092;&#46300;&#50500;&#53944;&#45936;&#51060;" coords="816,1,886,19" href="http://www.artday.co.kr" shape="rect" target="_blank"></area>
+<area alt="&#54756;&#47092;&#46300;&#50640;&#53076;&#53008;" coords="893,0,955,19" href="#" shape="rect"></area>
+</map>
+</div>
+<!-- &#54411;&#53552;-->
+</div>
+<script language="javascript">
+var histObj = document.getElementById("historybar");
+if( histObj == null || typeof(histObj) == 'undefined' )
+	 var historyText = 'no_history';
+else
+	 var historyText = histObj.innerText;
+_TRK_PI = "PDV";
+_TRK_PN = "&#45684;&#49828;&#53440;&#54028; &#44428;&#51008;&#55148; &#51116;&#49328;&#49888;&#44256; &#51032;&#54841;, &#51116;&#49328;&#49888;&#44256; &#47928;&#51228;&#50630;&#45796;&#44256; &#54032;&#45800;...&#50613;&#50872;&#54632; &#54840;&#49548;";
+_TRK_MF = historyText;
+</script>
+<!-- LOGGER TRACKING SCRIPT V.31 FOR biz.heraldm.com / 1002 : FAIL-SAFE TYPE / DO NOT ALTER THIS SCRIPT. -->
+<!-- COPYRIGHT (C) 2002-2013 BIZSPRING INC. LOGGER(TM) ALL RIGHTS RESERVED. -->
+<script language="JavaScript">/* LOGGER TRACKING SCRIPT V.31 : 1002 *//*X*//* COPYRIGHT 2002-2013 BIZSPRING INC. *//*X*//* DO NOT MODIFY THIS SCRIPT. *//*X*/var _TRK_DOMAIN="vlog.heraldcorp.com";var _trk_bMSIE=(document.all)?true:false;var _trk_bJS12=(window.screen)?true:false;function _trk_escape(_str) { var str, ch; var bEncURI = "N"; eval("try{bEncURI=encodeURI('Y');}catch(_e){ }" ); if( bEncURI == "Y" ) str=encodeURI(_str); else str = escape(_str); str=str.split("+").join("%2B"); str=str.split("/").join("%2F"); str=str.split("&").join("%26"); str=str.split("?").join("%3F"); str=str.split(":").join("%3A"); str=str.split("#").join("%23"); return str;}function _trk_setCookie(name,value,expire) { var today=new Date(); today.setTime(today.getTime()+ expire ); document.cookie=name+"="+value+"; path=/; expires="+today.toGMTString()+";";}function _trk_getCookie(name) { var cookieName=name+"="; var x=0; while(x<=document.cookie.length) { var y=(x+cookieName.length); if(document.cookie.substring(x,y)==cookieName) {  if((endOfCookie=document.cookie.indexOf(";",y))==-1) endOfCookie=document.cookie.length;  return unescape(document.cookie.substring(y,endOfCookie)); } x=document.cookie.indexOf(" ",x)+1; if(x == 0) break; } return "";}function _trk_getParameter(name) { var paraName=name+"="; var URL=""+self.document.location.search; var tURL=""; eval("try{ tURL=top.document.location.search; }catch(_e){}"); URL=URL+"&"+tURL; if(URL.indexOf(paraName)!=-1) { var x=URL.indexOf(paraName)+paraName.length; var y=URL.substr(x).indexOf("&"); if(y!=-1) return URL.substring(x,x+y); else return URL.substr(x); } return "";}function _trk_make_code(_TRK_SERVER,_TRK_U) { var dt=document.title.toString(); dt=dt.substr(0,128); var dr=self.document.referrer; var tdr=""; eval("try{ tdr=top.document.referrer; }catch(_e){}"); var tdu=""; eval("try{ tdu=top.document.location.href; }catch(_e){}"); var bFrm=false; if(dr==tdu) { dr=tdr; bFrm=true; } if(dr=="undefined") dr=""; var du=self.document.location.href; if(du.substr(0,4)=="file") return ""; var adKeyVal = ""; if(bFrm) { adKeyVal=_trk_getParameter("OVKEY"); if(adKeyVal!="" && du.indexOf("OVKEY=")<0) {  if(du.indexOf("?")!=-1) du=du+"&OVKEY="+adKeyVal; else du=du+"?OVKEY="+adKeyVal;  adKeyVal=_trk_getParameter("OVRAW");  if(adKeyVal!="" && du.indexOf("OVRAW=")<0 ) if(du.indexOf("?")!=-1) du=du+"&OVRAW="+adKeyVal; else du=du+"?OVRAW="+adKeyVal; } else {  adKeyVal=_trk_getParameter("netpia");  if(adKeyVal!="" && du.indexOf("netpia=")<0 ) if(du.indexOf("?")!=-1) du=du+"&netpia="+adKeyVal; else du=du+"?netpia="+adKeyVal; } adKeyVal=_trk_getParameter("logger_kw"); if(adKeyVal!="" && du.indexOf("logger_kw=")<0 )  if(du.indexOf("?")!=-1) du=du+"&logger_kw="+adKeyVal; else du=du+"?logger_kw="+adKeyVal; adKeyVal=_trk_getParameter("source"); if(adKeyVal!="" && du.indexOf("source=")<0 )  if(du.indexOf("?")!=-1) du=du+"&source="+adKeyVal; else du=du+"?source="+adKeyVal; adKeyVal=_trk_getParameter("keywd"); if(adKeyVal!="" && du.indexOf("keywd=")<0 )  if(du.indexOf("?")!=-1) du=du+"&keywd="+adKeyVal; else du=du+"?keywd="+adKeyVal; adKeyVal=_trk_getParameter("NVADKWD");  if(adKeyVal!="" && du.indexOf("NVADKWD=")<0)  if(du.indexOf("?")!=-1) du=du+"&NVADKWD="+adKeyVal; else du=du+"?NVADKWD="+adKeyVal;  adKeyVal=_trk_getParameter("NVKWD");  if(adKeyVal!="" && du.indexOf("NVKWD=")<0 )  if(du.indexOf("?")!=-1) du=du+"&NVKWD="+adKeyVal; else du=du+"?NVKWD="+adKeyVal;   adKeyVal=_trk_getParameter("NVAR"); if(adKeyVal!="" && du.indexOf("NVAR=")<0 )  if(du.indexOf("?")!=-1) du=du+"&NVAR="+adKeyVal; else du=du+"?NVAR="+adKeyVal; adKeyVal=_trk_getParameter("DWIT");  if(adKeyVal!="" && du.indexOf("DWIT=")<0) if(du.indexOf("?")!=-1) du=du+"&DWIT="+adKeyVal; else du=du+"?DWIT="+adKeyVal;  adKeyVal=_trk_getParameter("DWIC");  if(adKeyVal!="" && du.indexOf("DWIC=")<0 )  if(du.indexOf("?")!=-1) du=du+"&DWIC="+adKeyVal; else du=du+"?DWIC="+adKeyVal;  adKeyVal=_trk_getParameter("gad"); if(adKeyVal!="" && du.indexOf("gad=")<0 )  if(du.indexOf("?")!=-1) du=du+"&gad="+adKeyVal; else du=du+"?gad="+adKeyVal; adKeyVal=_trk_getParameter("gclid"); if(adKeyVal!="" && du.indexOf("gclid=")<0 )  if(du.indexOf("?")!=-1) du=du+"&gclid="+adKeyVal; else du=du+"?gclid="+adKeyVal; adKeyVal=_trk_getParameter("gkw"); if(adKeyVal!="" && du.indexOf("gkw=")<0 )  if(du.indexOf("?")!=-1) du=du+"&gkw="+adKeyVal; else du=du+"?gkw="+adKeyVal; adKeyVal=_trk_getParameter("rcsite"); if(adKeyVal!="" && du.indexOf("rcsite=")<0 )  if(du.indexOf("?")!=-1) du=du+"&rcsite="+adKeyVal; else du=du+"?rcsite="+adKeyVal; adKeyVal=_trk_getParameter("rctype"); if(adKeyVal!="" && du.indexOf("rctype=")<0 )  if(du.indexOf("?")!=-1) du=du+"&rctype="+adKeyVal; else du=du+"?rctype="+adKeyVal; adKeyVal=_trk_getParameter("rc_code"); if(adKeyVal!="" && du.indexOf("rc_code=")<0 )  if(du.indexOf("?")!=-1) du=du+"&rc_code="+adKeyVal; else du=du+"?rc_code="+adKeyVal; adKeyVal=_trk_getParameter("_C_"); if(adKeyVal!="" && du.indexOf("_C_=")<0 )  if(du.indexOf("?")!=-1) du=du+"&_C_="+adKeyVal; else du=du+"?_C_="+adKeyVal; } var ce=navigator.cookieEnabled?"Y":"N"; var je=navigator.javaEnabled()?"Y":"N"; var ss=""; var cd = ""; if(_trk_bJS12) { ss=screen.width+"x"+screen.height; cd=screen.colorDepth; } if(!dt) dt=""; if(!dr) dr=""; if(!du) du=""; if(!ce) ce=""; if(!je) je=""; var t = new Date; var tye=(_trk_bMSIE)?(t.getYear()):(t.getFullYear()); var tmo=t.getMonth()+1; var tda=t.getDate(); var tho=t.getHours(); var tmi=t.getMinutes(); var tse=t.getSeconds(); var tzo=t.getTimezoneOffset(); var tc = ""; var prtcl=document.location.protocol.indexOf("https")!=-1?"https://":"http://"; if(prtcl=="https://") _TRK_SERVER=_TRK_DOMAIN; tc=tc+prtcl+_TRK_SERVER; var bPNF=((typeof _TRK_PI)!="undefined" && _TRK_PI=="PNF")?true:false; if(bPNF) tc=tc+"/tracker_click.tsp"; else tc=tc+"/tracker.tsp"; tc=tc+"?u="+_TRK_U+"&XU=&EXEN="+_EXEN; if(bPNF) { tc=tc+"&rnd="+Math.random()+"&CKFL="+_TRK_PI+"&CKDATA="+_trk_escape(du); } else { tc=tc+"&dr="+_trk_escape(dr)+"&XDR="+"&dt="+_trk_escape(dt)+"&du="+_trk_escape(du); if((typeof _TRK_CP)!="undefined" && _TRK_CP!="") tc=tc+"&CP="+_trk_escape(_TRK_CP)+"&XCP="; if((typeof _TRK_PI)!="undefined" && _TRK_PI!="") tc=tc+"&PI="+_TRK_PI; if((typeof _TRK_PN)!="undefined" && _TRK_PN!="") tc=tc+"&PN="+_trk_escape(_TRK_PN); if((typeof _TRK_MF)!="undefined" && _TRK_MF!="") tc=tc+"&MF="+_trk_escape(_TRK_MF); if((typeof _TRK_OA)!="undefined" && _TRK_OA!="") tc=tc+"&OA="+_TRK_OA; if((typeof _TRK_OP)!="undefined" && _TRK_OP!="") tc=tc+"&OP="+_trk_escape(_TRK_OP); if((typeof _TRK_OE)!="undefined" && _TRK_OE!="") tc=tc+"&OE="+_TRK_OE; if((typeof _TRK_CC)!="undefined" && _TRK_CC!="") tc=tc+"&CC="+_TRK_CC; if((typeof _TRK_RK)!="undefined" && _TRK_RK!="") tc=tc+"&RK="+_trk_escape(_TRK_RK); if((typeof _TRK_SX)!="undefined" && _TRK_SX!="") tc=tc+"&SX="+_TRK_SX; if((typeof _TRK_AG)!="undefined" && _TRK_AG!="") tc=tc+"&AG="+_TRK_AG; if((typeof _TRK_IK)!="undefined" && _TRK_IK!="") tc=tc+"&IK="+_trk_escape(_TRK_IK); tc=tc+"&js=Y"+"&ss="+escape(ss)+"&cd="+cd+"&ce="+ce+"&je="+je+"&tzo="+tzo+"&tye="+tye+"&tmo="+tmo+"&tda="+tda+"&tho="+tho+"&tmi="+tmi+"&tse="+tse; } return tc;}var _TRK_LIFE=_trk_getParameter("_L_");if(_TRK_LIFE=="") _TRK_LIFE=14;_TRK_LIFE = parseInt(_TRK_LIFE)*24*60*60*1000;var _TRK_U="";var _TRK_U_P=_trk_getParameter("_U_");var _TRK_U_C= _trk_getCookie("_TRK_U");if(_TRK_U_C!="") _TRK_U=_TRK_U_C;if(_TRK_U_P!="") _TRK_U=_TRK_U_P;if(_TRK_U!="" && _TRK_U_P!="") _trk_setCookie("_TRK_U",_TRK_U,_TRK_LIFE);var _TRK_CC_C=_trk_getCookie("_TRK_CC");var _TRK_CC_P=_trk_getParameter("_C_");if((typeof _TRK_CC)!="undefined" && _TRK_CC!="") _TRK_CC_P=_TRK_CC;if(_TRK_CC_C!="") _TRK_CC=_TRK_CC_C;if(_TRK_CC_P!="") _TRK_CC=_TRK_CC_P;if((typeof _TRK_CC)!="undefined" && _TRK_CC!="" && _TRK_CC_P!="") _trk_setCookie("_TRK_CC",_TRK_CC,_TRK_LIFE);var _TRK_RK_C=_trk_getCookie("_TRK_RK");var _TRK_RK_P=_trk_getParameter("_R_");if((typeof _TRK_RK)!="undefined" && _TRK_RK!="") _TRK_RK_P=_TRK_RK;if(_TRK_RK_C!="") _TRK_RK=_TRK_RK_C;if(_TRK_RK_P!="") _TRK_RK=_TRK_RK_P;if((typeof _TRK_RK)!="undefined" && _TRK_RK!="" && _TRK_RK_P!="") _trk_setCookie("_TRK_RK",_TRK_RK,_TRK_LIFE);var _SS_LIFE = 30*60*1000;var _EXEN = _trk_getCookie("_EXEN");if( _EXEN == "" ) _EXEN = 0; _EXEN ++;_trk_setCookie("_EXEN",_EXEN,_SS_LIFE);var _trk_code_base=_trk_make_code("vlog.heraldcorp.com","1002");var _trk_code_chan="";if(_TRK_U!="") _trk_code_chan=_trk_code_base.replace(/\?u=1002&XU=/g,"?u="+_TRK_U+"&XU=");var _trk_img_base=new Image();var _trk_img_chan=new Image();var _trk_img_base_click=new Image();var _trk_img_chan_click=new Image();if(_trk_bJS12==true) { if(_trk_bMSIE) { _trk_img_base.src=_trk_code_base; if(_TRK_U!="") _trk_img_chan.src=_trk_code_chan; } else { setTimeout("_trk_img_base.src=_trk_code_base;",1); if(_TRK_U!="") setTimeout("_trk_img_chan.src=_trk_code_chan;",1); }} else { if(_trk_bMSIE) document.write('<div style=\"display: none\">'); document.write('<img src=\"'+_trk_code_base+'\" height=\"0\" width=\"0\">'); if(_TRK_U!="") document.write('<img src=\"'+_trk_code_chan+'\" height=\"0\" width=\"0\">'); if(_trk_bMSIE) document.write('</div>');}function _trk_flashEnvView(env1,env2,env3,env4,env5,env6,env7,env8,env9,env10,env11,env12){ var _trk_code_flash=_trk_code_base; for (var envCnt=1; envCnt< 13; envCnt++){ if((eval("env"+envCnt) != "") && (typeof eval("env"+envCnt) != "undefined" )){  var trk_str  = eval("env"+envCnt) ;  if(trk_str.indexOf("_TRK_CP")>=0){   var trk_cp = trk_str.split('=');   var _TRK_CP = trk_cp[1];   _trk_code_flash=_trk_code_flash.replace(/&CP=.*&XCP=/g,"&XCP=");   _trk_code_flash=_trk_code_flash.replace(/&dr=.*&XDR=/g,"&XDR=");   _trk_code_flash=_trk_code_flash+"&dr=&CP="+_trk_escape(_TRK_CP)+"&rnd="+Math.random();   if(_TRK_U!="") {    _trk_code_flash=_trk_code_flash.replace(/\?u=1002&XU=/g,"?u="+_TRK_U+"&XU=");   }  }  if((trk_str.indexOf("_TRK_PN")>=0) || (trk_str.indexOf("_TRK_MF")>=0) || (trk_str.indexOf("_TRK_RK")>=0) || (trk_str.indexOf("_TRK_OP")>=0) || (trk_str.indexOf("_TRK_IK")>=0)){   var trk_env = trk_str.split('=');   var _TRK_ENV = _trk_escape(trk_env[1]);   var tkr_env_name = trk_str.substring(trk_str.indexOf('_',1)+1,trk_str.lastIndexOf('='));   var _trk_envs = "&"+tkr_env_name+"="+ _TRK_ENV;   if( _trk_code_flash.indexOf("&"+tkr_env_name+"=") > 0) {    var regVal = "\&"+tkr_env_name+"\=(.*)(\&PN\=|\&MF\=|\&OA\=|\&OP\=|\&OE\=|\&CC\=|\&RK\=|\&SX\=|\&AG\=|\&IK\=|\&js\=)";    var envReg = new RegExp(regVal, 'gi');    var envRst = _trk_code_flash.match(envReg);    var envRst = envRst.toString();    var envArr = envRst.split('&');    var envVar = envArr[1];    _trk_code_flash=_trk_code_flash.replace("&"+envVar+"&", _trk_envs);   }else{    _trk_code_flash = _trk_code_flash+"&"+tkr_env_name+"="+_TRK_ENV;   }  }  if((trk_str.indexOf("_TRK_PI")>=0) || (trk_str.indexOf("_TRK_OA")>=0) || (trk_str.indexOf("_TRK_OE")>=0) || (trk_str.indexOf("_TRK_CC")>=0) || (trk_str.indexOf("_TRK_SX")>=0) || (trk_str.indexOf("_TRK_AG")>=0)){   var trk_env = trk_str.split('=');   var _TRK_ENV = trk_env[1];   var tkr_env_name = trk_str.substring(trk_str.indexOf('_',1)+1,trk_str.lastIndexOf('='));   var _trk_envs = "&"+tkr_env_name+"="+_TRK_ENV+"&";   if( _trk_code_flash.indexOf("&"+tkr_env_name+"=") > 0) {    var regVal = "\&"+tkr_env_name+"\=(.*)(\&PN\=|\&MF\=|\&OA\=|\&OP\=|\&OE\=|\&CC\=|\&RK\=|\&SX\=|\&AG\=|\&IK\=|\&js\=)";    var envReg = new RegExp(regVal, 'gi');    var envRst = _trk_code_flash.match(envReg);    var envRst = envRst.toString();    var envArr = envRst.split('&');    var envVar = envArr[1];    _trk_code_flash=_trk_code_flash.replace("&"+envVar+"&", _trk_envs);   }else{    _trk_code_flash = _trk_code_flash+"&"+tkr_env_name+"="+_TRK_ENV;   }  } } } _trk_img_base_click.src=_trk_code_flash ;}function _trk_flashContentsView(_TRK_PI, _TRK_CP) { var _trk_code_flash=_trk_code_base; var _trk_piv = "&PI="+_TRK_PI+"&"; _trk_code_flash=_trk_code_flash.replace(/&CP=.*&XCP=/g,"&XCP="); _trk_code_flash=_trk_code_flash.replace(/&dr=.*&XDR=/g,"&XDR="); if( _trk_code_flash.indexOf("&PI=") > 0) { var regVal = "\&PI\=(.*)(\&PN\=|\&MF\=|\&OA\=|\&OP\=|\&OE\=|\&CC\=|\&RK\=|\&SX\=|\&AG\=|\&IK\=|\&js\=)"; var envReg = new RegExp(regVal, 'gi'); var envRst = _trk_code_flash.match(envReg); var envRst = envRst.toString(); var envArr = envRst.split('&'); var envVar = envArr[1]; _trk_code_flash=_trk_code_flash.replace("&"+envVar+"&", _trk_piv ); }else{ _trk_code_flash = _trk_code_flash+"&PI="+_TRK_PI; } _trk_img_base_click.src=_trk_code_flash+"&dr=&CP="+_trk_escape(_TRK_CP)+"&rnd="+Math.random(); if(_TRK_U!="") { _trk_code_flash=_trk_code_flash.replace(/\?u=1002&XU=/g,"?u="+_TRK_U+"&XU="); _trk_img_chan_click.src=_trk_code_flash+"&dr=&CP="+_trk_escape(_TRK_CP)+"&rnd="+Math.random(); }}function _trk_clickTrace(_TRK_CKFL,_TRK_CKDATA) { var _trk_code_click=_trk_code_base.substr(0,_trk_code_base.indexOf("tracker.tsp")); _trk_code_click=_trk_code_click+"tracker_click.tsp?rnd="+Math.random()+"&CKFL="+_TRK_CKFL+"&CKDATA="+_trk_escape(_TRK_CKDATA); _trk_img_base_click.src=_trk_code_click+"&u=1002"; if(_TRK_U!="") _trk_img_chan_click.src=_trk_code_click+"&u="+_TRK_U;}function _trk_adClick( adSvr, svcCode, adCode ) { var ac = ""; var prtcl=document.location.protocol.indexOf("https")!=-1?"https://":"http://"; if(prtcl=="https://") adSvr=_TRK_DOMAIN; ac=ac+prtcl+adSvr; _trk_img_base_click.src=ac+"/tracker_ad.tsp?u="+svcCode+"&mode=C&adCode="+adCode;}</script>
+<noscript><img height="0/" src="http://vlog.heraldcorp.com/tracker.tsp?u=1002&amp;js=N" width="0"/></noscript>
+<!-- END OF LOGGER TRACKING SCRIPT -->
+<script language="javascript">var g_strDispType='HP'; var g_strCategory='01-50-12'; var g_strNewsID='201407191523034979640_1'; var g_strRemoteIP = 'NULL';</script>
+<script language="javascript" src="http://res.heraldm.com/js/logcollectscript_201312.js?pp=001"></script>
+</body>
+</html>

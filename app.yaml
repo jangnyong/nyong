@@ -1,0 +1,17 @@
+application: jey1009star
+version: 1
+runtime: php
+api_version: 1
+
+handlers:
+- url: /css
+  static_dir: css
+
+- url: /js
+  static_dir: js
+
+- url: /
+  script: index.html
+- url: /
+  script: index.html
+  
